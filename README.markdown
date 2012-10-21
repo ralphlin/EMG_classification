@@ -10,14 +10,14 @@ Demo for RSS2009
 
 This program is used to run the anatomically correct
 testbed (ACT) finger, a 6 degree-of-freedom robotic finger
-custom-designed to mimick human biomechanics. It performs 
+custom-designed to mimic human biomechanics. It performs 
 this in 4 steps:
 
 1. Reads in electrical muscle (EMG) impulses from electrodes placed on three muscles on the index finger using installed NiDAQ boards
 2. Applies a Butterworth filter to smooth the raw data streams and segments into time windows.
 3. Classifies index finger motion as flex/extension,
 adduction/abduction, clockwise circle, counterclockwise
-circle, half curl, or full curl based on off-line supervised machine learning algorithm.
+circle, half curl, or full curl based on parameters determined with an off-line supervised machine learning algorithm.
 4. Commands robot to move in identified motion, matching speed and location of subject's finger using UDP communication protocol
 
 
