@@ -22,9 +22,7 @@ circle, half curl, or full curl based on parameters determined with an off-line 
 5. Outputs EMG signals to on screen oscilloscope displays (emgClassificationReadFromNiDAQ.cpp only)
 
 ## Notes:
-* This program was designed to run with the corresponding 
+This program was designed to run with the corresponding 
 main_RSSdemo.cpp behavior on the ACTHand control machine as well
 as glsample.cpp to provide a on-screen avatar for finger motion  
-* emgClassificationReadFromNiDAQ.cpp reads data from NiDAQ channels and displays EMG signals to onscreen oscilloscope displays  
-* emgClassificationReadFromFile.cpp reads pre-recorded data from files
 
